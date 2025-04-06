@@ -2,7 +2,7 @@ import React from "react";
 
 export function Dashboard() {
     return (
-        <div className="pet-container m-auto w-200 bg-amber-500">
+        <div className="pet-container mt-10 mx-auto w-100 md:w-160 lg:w-200 bg-amber-500">
             {/* Image of pet will go here */}
             <h2>😀</h2>
             {/* Display of current stats will go here (will need to pull data from supabase) */}
